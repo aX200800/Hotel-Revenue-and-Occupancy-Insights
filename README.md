@@ -1,1 +1,3 @@
-# Hotel-Revenue-and-Occupancy-Insights
+## Project Title
+
+# Hotel Revenue and Occupancy Insights
