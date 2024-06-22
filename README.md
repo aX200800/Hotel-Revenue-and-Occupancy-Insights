@@ -72,14 +72,14 @@ This project leverages Power BI to analyze and visualize key metrics related to 
    MoM ADR Diff = [CM ADRs] - [PM ADR]
    MoM ADR = ([CM ADRs] - [PM ADR]) / [PM ADR]
    ADR Trend = VAR positive_icon = UNICHAR(9650)
-                var negative_icon = UNICHAR(9660)
-                var result = IF([MoM ADR] > 0, positive_icon, negative_icon)
-                return result
+               var negative_icon = UNICHAR(9660)
+               var result = IF([MoM ADR] > 0, positive_icon, negative_icon)
+               return result
 
    Total Occupied Room Trend = VAR positive_icon = UNICHAR(9650)
-                                var negative_icon = UNICHAR(9660)
-                                var result = IF([MoM Total Occupancy Difference] > 0, positive_icon, negative_icon)
-                                return result
+                               var negative_icon = UNICHAR(9660)
+                               var result = IF([MoM Total Occupancy Difference] > 0, positive_icon, negative_icon)
+                               return result
    ```
 
 ## Project Background
