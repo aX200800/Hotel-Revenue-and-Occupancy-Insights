@@ -13,11 +13,12 @@ This project involves analyzing hotel revenue and occupancy metrics using Power 
 # Project Structure
 ## DAX Calculations
 1. **Date Table**:
-    *DateTable = CALENDAR(MIN('hotel data'[Arrival Date]), MAX('hotel data'[Arrival Date]))
-    *Month = FORMAT('Date Table'[Date], "mmm")
-    *Month Number = MONTH('Date Table'[Date])
-    *Quarter = QUARTER('Date Table'[Date])
-    *Quarter Name = CONCATENATE("Q", 'Date Table'[Quarter])
-    *Week = WEEKNUM('Date Table'[Date])
-    *Year = YEAR('Date Table'[Date])
+   <ul>
+   <li>DateTable = CALENDAR(MIN('hotel data'[Arrival Date]), MAX('hotel data'[Arrival Date]))</li>
+   <li>Month = FORMAT('Date Table'[Date], "mmm")
+   <li>Month Number = MONTH('Date Table'[Date])
+   <li>Quarter = QUARTER('Date Table'[Date])
+   <li>Quarter Name = CONCATENATE("Q", 'Date Table'[Quarter])
+   <li>Week = WEEKNUM('Date Table'[Date])
+   <li>Year = YEAR('Date Table'[Date])</ul>
 
